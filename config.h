@@ -34,11 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
 
-// #define MATRIX_ROW_PINS { B3, B4, B5, A8, A4 }
-// #define MATRIX_COL_PINS { A13, A10, A9, A14, A15, B8, B9, C13, C14, C15, A0, A1, A2, A3 }
-
 #define MATRIX_ROW_PINS { B7, B6, B5, B4, B3  }
-// #define MATRIX_COL_PINS { A2, A1, A0, B8, B13, B14, B15, B9, B10, B11, B12, A14, A13, A15 }
 #define MATRIX_COL_PINS { A15, A13, A14, B12, B11, B10, B9, B15, B14, B13, B8, A0, A1, A2 }
 
 // To enable debugger set A13 A14 -> A5 A6
@@ -47,7 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DIODE_DIRECTION COL2ROW //COL2ROW
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-// #define DEBOUNCE 0
+#define DEBOUNCE 1
 
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
 //#define MATRIX_HAS_GHOST

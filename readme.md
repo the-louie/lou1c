@@ -4,9 +4,9 @@
 
 A short description of the keyboard/project
 
-* Keyboard Maintainer: [The Louie](https://github.com/yourusername)
-* Hardware Supported: The PCBs, controllers supported
-* Hardware Availability: Links to where you can find this hardware
+* Keyboard Maintainer: [The Louie](https://github.com/the-louie)
+* Hardware Supported: Handwired ortho keyboard
+* Hardware Availability: https://louie.se/
 
 Make example for this keyboard (after setting up your build environment):
 
